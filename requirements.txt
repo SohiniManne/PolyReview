@@ -1,0 +1,21 @@
+# Data Handling
+pandas==2.2.0
+numpy==1.26.3
+pyyaml==6.0.1
+
+# Machine Learning & NLP
+torch==2.1.2
+transformers==4.36.2
+sentencepiece==0.1.99
+scikit-learn==1.4.0
+
+# Language Detection (Critical for Phase 2)
+# Using fasttext-wheel for easier install on Windows/Mac without C++ compilers
+fasttext-wheel==0.9.2 
+
+# Dashboard
+streamlit==1.30.0
+plotly==5.18.0
+
+# Utilities
+tqdm==4.66.1

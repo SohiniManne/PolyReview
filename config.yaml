@@ -1,0 +1,17 @@
+app_name: "PolyReview"
+version: "1.0"
+
+data:
+  raw_path: "data/reviews.csv"
+  processed_path: "data/processed_reviews.csv"
+
+models:
+  # Phase 2: Language Detection
+  lang_detect_model: "lid.176.bin"  # We will download this in Phase 2
+
+  # Phase 3: Translation (MarianMT)
+  translation_model_prefix: "Helsinki-NLP/opus-mt-{src}-en"
+  supported_languages: ["fr", "de", "es", "it"] # Keep it small for local
+
+  # Phase 4: Sentiment
+  sentiment_model: "distilbert-base-uncased-finetuned-sst-2-english"
