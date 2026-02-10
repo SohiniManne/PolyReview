@@ -138,5 +138,3 @@ This project was developed for **educational and research purposes** to demonstr
 ## 📬 Contact
 
 If you have suggestions or feedback, feel free to open an issue or reach out.
-
-Just tell me 👉 **what’s next** 🚀
